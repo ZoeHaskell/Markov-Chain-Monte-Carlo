@@ -1,0 +1,11 @@
+Find a system/model/dataset which I can use to actually try out this approach
+I'll need to figure out a reasonable prior distribution for that system/model/dataset
+I'm trying to generate samples from the posterior CDF in order to estimate it.
+
+Of the several methods I could use, which will be the most effective and efficient? 
+Some options to check include the Metropolis-Hastings algorithm, Gibbs sampling, Slice sampling, Hamiltonian Monte Carlo and Exact Sampling
+
+What if anything can I say about this method in terms of how quickly it converges to a 'true' sample from the posterior CDF?
+
+I know rejection of a stochastic step needs to occur roughly 50-60% of the time (ran across an information theory result to that effect, 
+but need to look deeper into the details), and to ensure rejections occur, otherwise we're just sampling from the stochastic process in question, not from the distribution.
